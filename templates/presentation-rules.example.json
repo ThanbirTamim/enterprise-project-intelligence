@@ -1,0 +1,20 @@
+{
+  "name": "Example neutral presentation guideline",
+  "requiredSections": ["Executive Summary", "Risks and Decisions", "References and Assumptions"],
+  "maxBulletsPerSlide": 6,
+  "requireTitleOnEverySlide": true,
+  "requireFooterOrPageNumber": true,
+  "requireCitationOnNumericClaims": true,
+  "palette": {
+    "primary": "#2B6CB0",
+    "text": "#1A202C",
+    "background": "#FFFFFF",
+    "risk": "#C53030"
+  },
+  "typography": {
+    "titleFont": "Generic Sans",
+    "bodyFont": "Generic Sans"
+  },
+  "blockingRuleIds": ["required-sections", "max-bullets", "require-title"],
+  "humanReviewOnly": ["visual-balance", "diagram-aesthetics", "logo-placement"]
+}

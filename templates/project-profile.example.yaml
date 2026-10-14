@@ -1,0 +1,18 @@
+# Project profile (example)
+# Copy this file, fill in real values, and keep the filled-in copy OUTSIDE the public package
+# (e.g., in a private working directory). Never commit a filled-in profile for a real project
+# into this public repository.
+
+projectId: "example-project"              # short, generic identifier — never the real internal name
+displayName: "Example Project"            # safe-to-share display name
+confidentiality: "internal"               # public | internal | confidential | restricted
+corpusPath: "/absolute/or/relative/path/to/the/real/documentation/corpus"   # NOT committed anywhere
+excludePaths:
+  - "**/node_modules/**"
+  - "**/.git/**"
+  - "**/drafts/**"
+notes: "Optional free-text context for the assistant (team, stack, constraints)."
+organizationalConstraints:
+  dataResidency: "unspecified"            # e.g., must-stay-on-prem, eu-only, no-constraint
+  approvedAiVendors: []                   # list only if the organization has actually approved any
+  complianceRegimes: []                   # e.g., ["GDPR"], leave empty if not applicable
