@@ -1,0 +1,5 @@
+item_sku,description,category,reorder_point,current_quantity
+SKU-1001,Fictional Widget A,Hardware,50,34
+SKU-1002,Fictional Widget B,Hardware,100,112
+SKU-2001,Fictional Packaging Box S,Packaging,500,210
+SKU-2002,Fictional Packaging Box M,Packaging,500,480

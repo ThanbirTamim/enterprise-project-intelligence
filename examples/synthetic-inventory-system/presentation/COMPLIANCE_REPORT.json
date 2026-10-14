@@ -1,0 +1,34 @@
+{
+  "pass": true,
+  "findings": [
+    {
+      "ruleId": "palette-not-checkable",
+      "severity": "info",
+      "slide": null,
+      "finding": "Deck format does not expose \"palette\" metadata.",
+      "correctiveAction": "Not checkable from this format; verify manually."
+    },
+    {
+      "ruleId": "typography-not-checkable",
+      "severity": "info",
+      "slide": null,
+      "finding": "Deck format does not expose \"typography\" metadata.",
+      "correctiveAction": "Not checkable from this format; verify manually."
+    }
+  ],
+  "humanReview": [
+    {
+      "ruleId": "visual-balance",
+      "note": "Semantic/visual judgment required; not auto-checked."
+    },
+    {
+      "ruleId": "diagram-aesthetics",
+      "note": "Semantic/visual judgment required; not auto-checked."
+    },
+    {
+      "ruleId": "logo-placement",
+      "note": "Semantic/visual judgment required; not auto-checked."
+    }
+  ],
+  "blockingFailureCount": 0
+}

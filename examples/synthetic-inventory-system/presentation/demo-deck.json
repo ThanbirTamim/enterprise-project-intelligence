@@ -1,0 +1,20 @@
+{
+  "sections": ["Title", "Executive Summary", "Current-State Architecture", "Example Business Workflow", "Engineering Pain Points", "AI Opportunity Matrix", "Prioritized AI Use Case", "Proposed Reference Architecture", "Security and Governance", "Feasibility and Dependencies", "Pilot Design", "Evaluation Criteria", "Implementation Roadmap", "Risks and Decisions", "References and Assumptions"],
+  "slides": [
+    { "title": "Title", "bullets": [], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "intro" },
+    { "title": "Executive Summary", "bullets": ["3 opportunities", "1 recommended for AI", "0 unresolved blockers for the recommended pilot"], "hasFooterOrPageNumber": true, "hasNumericClaim": true, "citationsPresent": true, "notes": "summary" },
+    { "title": "Current-State Architecture", "bullets": ["5 modules", "Receiving is manual"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "arch" },
+    { "title": "Example Business Workflow: Receiving", "bullets": ["scan", "manual entry", "ledger update", "discrepancy flag"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "workflow" },
+    { "title": "Engineering Pain Points", "bullets": ["manual re-keying", "manual CSV review", "no change history"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "pain points" },
+    { "title": "AI Opportunity Matrix", "bullets": ["OPP-001", "OPP-002", "OPP-003"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "matrix" },
+    { "title": "Prioritized AI Use Case: OPP-001", "bullets": ["weighted score 3.45", "non-AI alternative considered", "data gap identified"], "hasFooterOrPageNumber": true, "hasNumericClaim": true, "citationsPresent": true, "notes": "opp1" },
+    { "title": "Proposed Reference Architecture", "bullets": ["async extraction", "human confirmation", "no vector DB"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "arch2" },
+    { "title": "Security and Governance", "bullets": ["human confirmation required", "audit log", "feature-flag rollback"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "security" },
+    { "title": "Feasibility and Dependencies", "bullets": ["labeled sample needed", "EDI feasibility study"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "feasibility" },
+    { "title": "Pilot Design", "bullets": ["1 warehouse", "4-week window", "baseline measurement first"], "hasFooterOrPageNumber": true, "hasNumericClaim": true, "citationsPresent": true, "notes": "pilot" },
+    { "title": "Evaluation Criteria", "bullets": ["confirmation-edit rate", "time vs baseline", "zero unauthorized exposure"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "eval" },
+    { "title": "Implementation Roadmap", "bullets": ["discovery", "PoC", "pilot", "production readiness", "expansion"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "roadmap" },
+    { "title": "Risks and Decisions", "bullets": ["low data readiness", "over-trust risk"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "risks" },
+    { "title": "References and Assumptions", "bullets": ["source-docs", "EDI assumption"], "hasFooterOrPageNumber": true, "hasNumericClaim": false, "citationsPresent": true, "notes": "refs" }
+  ]
+}
