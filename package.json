@@ -1,6 +1,6 @@
 {
   "name": "@thanbir-tamim/enterprise-project-intelligence-agent",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Project-agnostic Agent Skills toolkit for reverse-engineering software projects from documentation/code and planning safe, evidence-driven AI integrations.",
   "license": "Apache-2.0",
   "type": "module",

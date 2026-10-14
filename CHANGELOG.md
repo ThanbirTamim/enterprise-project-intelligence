@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2
+
+- Rewrote README.md: added badges, an ASCII banner, a table of contents, and a detailed
+  per-skill section for all 10 skills (purpose, inputs, outputs, example links).
+- No functional changes to skills or scripts.
+
 ## 0.1.1
 
 - Fixed stale README "Status" section (incorrectly said "unpublished" after the package was
