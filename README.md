@@ -82,8 +82,11 @@ but:
 
 ## Status
 
-This is a local, unpublished package (see `docs/IMPLEMENTATION_REPORT.md`). Nothing in this
-repository is published or released automatically.
+Published on npm as `@thanbir-tamim/enterprise-project-intelligence-agent` (see `package.json` for
+the current version). This is an early release (`0.1.x`) — see `docs/IMPLEMENTATION_REPORT.md` for
+what has been implemented, tested, and verified so far, and `CHANGELOG.md` for release history.
+Future releases are published deliberately, never automatically, following the checklist in
+`docs/INSTALLATION.md`.
 
 ## License
 

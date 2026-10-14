@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.1.0 — Initial local build (unreleased)
+## 0.1.1
+
+- Fixed stale README "Status" section (incorrectly said "unpublished" after the package was
+  published to npm).
+- No functional changes to skills or scripts.
+
+## 0.1.0 — Initial public release
 
 - Added 10 composable Agent Skills: `project-documentation-discovery`,
   `project-knowledge-assistant`, `software-reverse-engineering`,
@@ -18,5 +24,6 @@
   feasibility scoring (including the non-overridable blocker rule), presentation compliance
   checking, Markdown rendering, and release-audit secret detection.
 - Added toolkit documentation under `docs/`.
-- Not yet published to any package registry. See `docs/IMPLEMENTATION_REPORT.md` for status and
+- Not yet published to any package registry at the time this entry was written. See
+  `docs/IMPLEMENTATION_REPORT.md` for status and
   the release-preparation checklist.

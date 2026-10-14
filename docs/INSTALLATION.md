@@ -7,10 +7,10 @@
 - An AI coding agent that supports the Agent Skills convention (a `SKILL.md` file with YAML
   frontmatter per skill directory), to actually use the skills as agent instructions.
 
-## Option A — clone and use locally (recommended while unpublished)
+## Option A — clone and use locally
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/ThanbirTamim/enterprise-project-intelligence.git
 cd enterprise-project-intelligence
 node scripts/cli.mjs list
 ```
@@ -18,16 +18,16 @@ node scripts/cli.mjs list
 Point your agent's skills directory at this repo's `skills/` folder, or copy individual
 `skills/<name>/` directories into your agent's own skills directory.
 
-## Option B — install as an npm package (once published)
+## Option B — install as an npm package
 
-This package is **not currently published**. If/when it is published under
-`@thanbir-tamim/enterprise-project-intelligence-agent`, install with:
+Published at
+[`@thanbir-tamim/enterprise-project-intelligence-agent`](https://www.npmjs.com/package/@thanbir-tamim/enterprise-project-intelligence-agent):
 
 ```bash
 npm install -g @thanbir-tamim/enterprise-project-intelligence-agent
 ```
 
-Before any real publication, run:
+Before any new release, run:
 
 ```bash
 npm run validate
