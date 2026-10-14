@@ -1,0 +1,21 @@
+# Dependencies / build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# PRIVATE: never commit real project corpora, derived knowledge, or generated private reports.
+.local-knowledge/
+.private/
+private-source/
+*.pdf
+
+# Local tooling
+.DS_Store
+*.log
+npm-debug.log*
+coverage/
+.tmp/
+
+# Editor
+.vscode/
+.idea/

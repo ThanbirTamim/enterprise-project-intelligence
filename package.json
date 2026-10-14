@@ -1,0 +1,53 @@
+{
+  "name": "@thanbir-tamim/enterprise-project-intelligence-agent",
+  "version": "0.1.0",
+  "description": "Project-agnostic Agent Skills toolkit for reverse-engineering software projects from documentation/code and planning safe, evidence-driven AI integrations.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "epi-agent": "scripts/cli.mjs"
+  },
+  "files": [
+    "skills/",
+    "templates/",
+    "scripts/",
+    "examples/",
+    "docs/",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "list": "node scripts/cli.mjs list",
+    "validate": "node scripts/cli.mjs validate",
+    "release-audit": "node scripts/release-audit.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "agent-skills",
+    "ai-integration",
+    "software-architecture",
+    "reverse-engineering",
+    "technical-documentation",
+    "presentation-generation",
+    "enterprise",
+    "claude",
+    "pi-coding-agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanbirTamim/enterprise-project-intelligence.git"
+  },
+  "homepage": "https://github.com/ThanbirTamim/enterprise-project-intelligence#readme",
+  "bugs": {
+    "url": "https://github.com/ThanbirTamim/enterprise-project-intelligence/issues"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

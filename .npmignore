@@ -1,0 +1,11 @@
+# Exclude from the published npm package (in addition to .gitignore patterns npm already respects)
+.local-knowledge/
+.private/
+private-source/
+tests/
+evaluations/
+.github/
+.idea/
+.vscode/
+*.log
+.DS_Store
