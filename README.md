@@ -12,6 +12,10 @@
 ```
 
 <p align="center">
+  <img src="assets/figures/hero-architecture.png" alt="Enterprise Project Intelligence Pipeline" width="100%">
+</p>
+
+<p align="center">
   <a href="https://www.npmjs.com/package/@thanbir-tamim/enterprise-project-intelligence-agent"><img src="https://img.shields.io/npm/v/@thanbir-tamim/enterprise-project-intelligence-agent?color=cb3837&label=npm" alt="npm version"></a>
   <a href="https://www.npmjs.com/package/@thanbir-tamim/enterprise-project-intelligence-agent"><img src="https://img.shields.io/npm/dm/@thanbir-tamim/enterprise-project-intelligence-agent?color=cb3837" alt="npm downloads"></a>
   <a href="https://github.com/ThanbirTamim/enterprise-project-intelligence/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue.svg" alt="License"></a>
@@ -57,6 +61,10 @@ use AI here?" as a real question with a real non-AI alternative — not a forego
       technical-document-generator · corporate-presentation-generator
                  (Markdown / HTML / decks, all cited)
 ```
+
+<p align="center">
+  <img src="assets/figures/skills-interaction-map.png" alt="Skills Composition and Interaction Map" width="95%">
+</p>
 
 ## Table of contents
 
@@ -157,6 +165,11 @@ zero existing AI.** Every proposal is compared against the simplest non-AI alter
 is an eight-dimension, published weighting formula with a **non-overridable blocker rule**: a critical
 security/privacy/legal/authorization blocker forces `blocked`/`rework-required` *no matter how high
 the weighted score is* — enforced in code, not just prose, and covered by automated tests.
+
+<p align="center">
+  <img src="assets/figures/feasibility-scoring-engine.png" alt="Feasibility Scoring and Blocker Override Engine" width="90%">
+</p>
+
 - **Reference script**: [`scripts/score-opportunity.mjs`](skills/enterprise-ai-integration-planner/scripts/score-opportunity.mjs) — pure function, fully reproducible.
 - **Generates**: `AI_INTEGRATION_STRATEGY.md`, `AI_OPPORTUNITY_MATRIX.md`, `AI_FEASIBILITY_ASSESSMENT.md`,
   `AI_REFERENCE_ARCHITECTURE.md`, `AI_SECURITY_AND_GOVERNANCE.md`, `AI_EVALUATION_FRAMEWORK.md`,
